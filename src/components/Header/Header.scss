@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 3rem;
+  width: 100vw;
+  padding: 10px;
+  background-color: rgba(114, 114, 111, 0.39);
+
+  &__buttons {
+    margin-right: 5rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  &__button {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+}

@@ -1,0 +1,13 @@
+.user {
+  margin-top: 10rem;
+  gap: 20px;
+  width: 30rem;
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 10px;
+
+  &__title {
+    align-self: flex-start;
+    font-size: 20px;
+  }
+}

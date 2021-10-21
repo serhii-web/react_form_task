@@ -1,0 +1,22 @@
+.form {
+  position: absolute;
+  top: 6rem;
+  right: 10rem;
+  display: flex;
+  flex-direction: column;
+  width: 13rem;
+  gap: 5px;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+
+  &__title {
+    align-self: flex-start;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__button {
+    align-self: flex-end;
+  }
+}
